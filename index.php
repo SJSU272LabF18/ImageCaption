@@ -114,7 +114,7 @@ function bark($line)
    <?php
       if(isset($f)){
         echo "<img src='$file_name' style='height:510;width:640; align:center'>";
-        echo "<p style='font-size:30px;'>$line</p>";
+        echo "<p>$line</p>";
         bark($line); 
       } ?>
       </center>
